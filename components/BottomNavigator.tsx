@@ -18,7 +18,7 @@ const BottomTabStack = () => {
         headerShown: false,
         tabBarStyle: {
           backgroundColor: Colors.light.background,
-          height: 100,
+          paddingVertical: 25,
           borderTopLeftRadius: 20,
           borderTopRightRadius: 20,
         },
@@ -93,10 +93,12 @@ const styles = StyleSheet.create({
   iconSize: {
     width: 30,
     height: 30,
+    padding: 5,
   },
   iconWrapper: {
     justifyContent: "center",
     alignItems: "center",
+    marginBottom: 16, // Increase gap between icon and label
   },
   iconWrapperFocused: {
     justifyContent: "center",
@@ -107,9 +109,10 @@ const styles = StyleSheet.create({
     height: 60, // Adjust size as needed
     padding: 5, // Adjust size as needed
     marginTop: -50, // Adjust size as needed
+    marginBottom: 16, // Increase gap between icon and label
   },
   tabBarLabel: {
-    fontSize: 14,
+    fontSize: 12,
     color: "white",
     fontWeight: "normal",
     textTransform: "capitalize",
