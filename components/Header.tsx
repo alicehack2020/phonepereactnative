@@ -45,6 +45,7 @@ const styles = StyleSheet.create({
     height: 120,
     backgroundColor: Colors.light.background,
     paddingHorizontal: 20,
+    paddingTop: 5,
   },
   flexColumn: {
     display: "flex",
